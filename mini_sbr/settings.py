@@ -29,7 +29,7 @@ INSTALLED_APPS = [
     'corsheaders',
     'django_filters',
     'drf_spectacular',
-    # Local apps (uncomment as you create them)
+    # Local apps
     'users',
     # 'companies',
     # 'candidates',
@@ -98,7 +98,7 @@ MEDIA_ROOT = BASE_DIR / 'media'
 # Default primary key
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-# Custom User model
+# Custom User model (uncomment after creating users app)
 AUTH_USER_MODEL = 'users.User'
 
 # CORS (allow all in development)
