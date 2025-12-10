@@ -31,7 +31,7 @@ INSTALLED_APPS = [
     'drf_spectacular',
     # Local apps
     'users',
-    # 'companies',
+    'companies',
     # 'candidates',
     # 'jobs',
     # 'applications',
