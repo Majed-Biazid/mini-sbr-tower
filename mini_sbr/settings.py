@@ -32,7 +32,7 @@ INSTALLED_APPS = [
     # Local apps
     'users',
     'companies',
-    # 'candidates',
+    'candidates',
     # 'jobs',
     # 'applications',
     # 'dashboard',

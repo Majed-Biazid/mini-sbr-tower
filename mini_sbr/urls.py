@@ -14,7 +14,7 @@ urlpatterns = [
     # API endpoints
     path('api/auth/', include('users.urls')),
     path('api/companies/', include('companies.urls')),
-    # path('api/candidates/', include('candidates.urls')),
+    path('api/candidates/', include('candidates.urls')),
     # path('api/jobs/', include('jobs.urls')),
     # path('api/applications/', include('applications.urls')),
     # path('api/dashboard/', include('dashboard.urls')),
